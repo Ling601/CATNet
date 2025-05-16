@@ -1,1 +1,1 @@
-# CATNet-Coordinate-Aware-Transformer-for-All-in-One-Image-Restoration
+# CATNet Coordinate-Aware Transformer for All-in-One Image Restoration
