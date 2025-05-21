@@ -26,6 +26,8 @@ python test.py --mode {n}
 Example Usage: To test on all the degradation types at once, run:
 
 ```
+
+**Acknowledgment:** This code is based on the [PromptIR](https://github.com/va1shn9v/PromptIR) and [AdaIR](https://github.com/c-yn/AdaIR/tree/main) repository. 
 python test.py --mode 6
 ```
 <!-- 
