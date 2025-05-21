@@ -26,10 +26,23 @@ python test.py --mode {n}
 Example Usage: To test on all the degradation types at once, run:
 
 ```
-
-**Acknowledgment:** This code is based on the [PromptIR](https://github.com/va1shn9v/PromptIR) and [AdaIR](https://github.com/c-yn/AdaIR/tree/main) repository. 
 python test.py --mode 6
 ```
 <!-- 
+## Demo
+To obtain visual results from the model ```demo.py``` can be used. After placing the saved model file in ```ckpt``` directory, run:
+```
+python demo.py --test_path {path_to_degraded_images} --output_path {save_images_here}
+```
+Example usage to run inference on a directory of images:
+```
+python demo.py --test_path './test/demo/' --output_path './output/demo/'
+```
+Example usage to run inference on an image directly:
+```
+python demo.py --test_path './test/demo/image.png' --output_path './output/demo/'
+```
+To use tiling option while running ```demo.py``` set ```--tile``` option to ```True```. The Tile size and Tile overlap parameters can be adjusted using ```--tile_size``` and ```--tile_overlap``` options respectively. -->
+
 
 **Acknowledgment:** This code is based on the [PromptIR](https://github.com/va1shn9v/PromptIR) and the [AdaIR](https://github.com/c-yn/AdaIR/tree/main) repository. 
